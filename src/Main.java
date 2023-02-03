@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
     }
-    public static void dilivery (int distance) {
+    public static void delivery (int distance) {
         int deliveryDistance = distance;
         if (deliveryDistance <= 100) {
             int days = 1;
@@ -65,6 +65,6 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         int distance = 65;
-        dilivery(distance);
+        delivery(distance);
     }
 }
